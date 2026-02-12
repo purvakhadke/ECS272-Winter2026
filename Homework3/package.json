@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "d3": "^7.9.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "usehooks-ts": "^3.1.1"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^4.5.3"
+  }
+}

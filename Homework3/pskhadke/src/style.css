@@ -1,0 +1,36 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+#main-container{
+  height: 100vh;
+  width: 100vw;
+}
+
+.chart-container{
+  height: 100%;
+}
+
+.d3-tooltip {
+  position: absolute;
+  padding: 10px;
+  background: rgba(28, 28, 28, 0.95);
+  border: 1px solid #1DB954;
+  border-radius: 4px;
+  color: white;
+  pointer-events: none;
+  font-size: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+  z-index: 1000;
+}
